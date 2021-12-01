@@ -22,6 +22,7 @@ format: 'image/png',
 crs: crs25831,
 transparent: true,
 continuousWorld: true,
+version: '1.3.0',
 attribution: 'Institut Cartogràfic i Geològic de Catalunya',
 });
 
@@ -72,3 +73,4 @@ let overlayMaps = {
 };
 
 L.control.layers(baseMaps, overlayMaps).addTo(map);
+
